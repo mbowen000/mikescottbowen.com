@@ -484,6 +484,9 @@ pre {
   box-shadow: 0 0 16px -5px #808080;
   border: none; }
 
+.page-content {
+  background-color: #ffffff; }
+
 .site-footer {
   background-color: #403e4c; }
 
