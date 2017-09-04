@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <!-- <h1 class="page-heading">Some of My Work</h1> -->
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+          <div class="left-content">
+            <h4>{{post.title}}</h4>
+
+            <ul class="tech">
+                {% for tech in post.tech %}
+                    <li>
+                        <span class="pill">
+                            {{tech}}
+                        </span>
+                    </li>
+                {% endfor %}
+            </ul>
+
+
+            <p class="descrip">
+                {{post.description}}
+            </p>
+          </div>
+          <div class="right-content">
+            {{post.excerpt}}
+          </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+</div>

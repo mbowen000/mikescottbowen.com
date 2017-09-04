@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "SMB Kanban Board"
+date:   2017-09-04 10:31:06 -0500
+categories: work
+tech:
+    - Design
+    - HTML/SCSS
+    - Front-End Interface (Angular 1.6)
+description: "My own team needed an internal time-tracking / kanban-style task board, so we built one! The system was hosted on Heroku and built on Angular 1.6"
+---
+![Second City Screenshot]({{site.url}}/assets/images/smbkan.png)
