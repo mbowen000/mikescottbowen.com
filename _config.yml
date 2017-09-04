@@ -17,11 +17,15 @@ title: Mike Bowen | UX Designer & Developer
 email: mike.scott.bowen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm Mike, the son of a sign painter and lover of my wife, travel, cooking and skiing.
-  I craft cool experiences and tinker with anything I can get my hands on.
+  I craft cool experiences and tinker with anything I can get my hands on. Feel free to reach 
+  out if you have any questions!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://mikescottbowen.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mikeybowen
 github_username:  mbowen000
+
+# Google Analytics
+google_analytics: "UA-105851060-1"
 
 # Build settings
 markdown: kramdown
