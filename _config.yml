@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mike Bowen | UX Designer & Developer
+title: Mike Bowen | Front-End Developer
 email: mike.scott.bowen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm Mike, the son of a sign painter and outdoor enthusiast. I love traveling, cooking, skiing, talking with people and learning new things. I craft cool experiences and tinker with anything I can get my hands on. Feel free to reach out with any questions!
